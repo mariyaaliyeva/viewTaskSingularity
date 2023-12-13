@@ -11,13 +11,13 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var myTableView: UITableView!
     
-    let students: [Student] = [
-        Student(name: "Darhan", comment: "Love this movie and always will", date: "07.05.2023", image: UIImage(systemName: "heart.fill")),
-        Student(name: "Kate", comment: "I don't like this movie and won't always", date: "07.05.2023", image: UIImage(systemName: "heart.fill")),
-        Student(name: "Ameliya", comment: "Love this movie and always will", date: "07.05.2023", image: UIImage(systemName: "heart.fill")),
-        Student(name: "Henry", comment: "I don't like this movie and won't always", date: "07.05.2023", image: UIImage(systemName: "heart.fill")),
-        Student(name: "Peter", comment: "Love this movie and always will", date: "07.05.2023", image: UIImage(systemName: "heart.fill")),
-        Student(name: "Luc", comment: "I don't like this movie and won't always", date: "07.05.2023", image: UIImage(systemName: "heart.fill")),
+    let students: [User] = [
+        User(name: "Darhan", comment: "Love this movie and always will", date: "07.05.2023", image: UIImage(systemName: "heart.fill")),
+        User(name: "Kate", comment: "I don't like this movie and won't always", date: "07.05.2023", image: UIImage(systemName: "heart.fill")),
+        User(name: "Ameliya", comment: "Love this movie and always will", date: "07.05.2023", image: UIImage(systemName: "heart.fill")),
+        User(name: "Henry", comment: "I don't like this movie and won't always", date: "07.05.2023", image: UIImage(systemName: "heart.fill")),
+        User(name: "Peter", comment: "Love this movie and always will", date: "07.05.2023", image: UIImage(systemName: "heart.fill")),
+        User(name: "Luc", comment: "I don't like this movie and won't always", date: "07.05.2023", image: UIImage(systemName: "heart.fill")),
             ]
     
     override func viewDidLoad() {

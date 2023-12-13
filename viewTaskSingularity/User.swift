@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-struct Student {
+struct User {
     
     var name: String
     var comment: String

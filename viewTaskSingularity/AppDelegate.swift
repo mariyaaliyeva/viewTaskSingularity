@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  viewTaskSingularity
 //
-//  Created by Rustam Aliyev on 11.12.2023.
+//  Created by Mariya Aliyeva on 11.12.2023.
 //
 
 import UIKit
