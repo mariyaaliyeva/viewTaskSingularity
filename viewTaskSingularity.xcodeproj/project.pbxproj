@@ -13,6 +13,8 @@
 		8333B9262B27056500A7FB54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8333B9242B27056500A7FB54 /* Main.storyboard */; };
 		8333B9282B27056F00A7FB54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8333B9272B27056F00A7FB54 /* Assets.xcassets */; };
 		8333B92B2B27056F00A7FB54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8333B9292B27056F00A7FB54 /* LaunchScreen.storyboard */; };
+		8333B9332B27188B00A7FB54 /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8333B9322B27188B00A7FB54 /* StudentTableViewCell.swift */; };
+		8333B9352B27196100A7FB54 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8333B9342B27196100A7FB54 /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8333B9272B27056F00A7FB54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8333B92A2B27056F00A7FB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8333B92C2B27056F00A7FB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8333B9322B27188B00A7FB54 /* StudentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
+		8333B9342B27196100A7FB54 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				8333B91E2B27056500A7FB54 /* AppDelegate.swift */,
 				8333B9202B27056500A7FB54 /* SceneDelegate.swift */,
 				8333B9222B27056500A7FB54 /* ViewController.swift */,
+				8333B9342B27196100A7FB54 /* Student.swift */,
 				8333B9242B27056500A7FB54 /* Main.storyboard */,
+				8333B9322B27188B00A7FB54 /* StudentTableViewCell.swift */,
 				8333B9272B27056F00A7FB54 /* Assets.xcassets */,
 				8333B9292B27056F00A7FB54 /* LaunchScreen.storyboard */,
 				8333B92C2B27056F00A7FB54 /* Info.plist */,
@@ -141,6 +147,8 @@
 				8333B9232B27056500A7FB54 /* ViewController.swift in Sources */,
 				8333B91F2B27056500A7FB54 /* AppDelegate.swift in Sources */,
 				8333B9212B27056500A7FB54 /* SceneDelegate.swift in Sources */,
+				8333B9352B27196100A7FB54 /* Student.swift in Sources */,
+				8333B9332B27188B00A7FB54 /* StudentTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
